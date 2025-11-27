@@ -60,11 +60,9 @@ SUBSYS(net_prio)
 SUBSYS(hugetlb)
 #endif
 
-/*
 #if IS_ENABLED(CONFIG_CGROUP_PIDS) && !IS_ENABLED(CONFIG_HW_CGROUP_PIDS)
 SUBSYS(pids)
 #endif
-*/
 
 /*
  * The following subsystems are not supported on the default hierarchy.
